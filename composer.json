@@ -1,0 +1,24 @@
+{
+    "name": "kniziol/php-app-without-framework",
+    "description": "The PHP application without framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Nizioł",
+            "email": "krzysztof.niziol@meritoo.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kni\\": "src/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^1.7",
+        "middlewares/fast-route": "^1.0",
+        "middlewares/request-handler": "^1.1"
+    }
+}
